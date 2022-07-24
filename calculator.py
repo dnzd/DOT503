@@ -9,8 +9,9 @@ while True:
         add = num1 + num2
         if choice == '1':
             print(add)
-
-        
+        divide = num1 / num2
+        if choice == '4':
+            print(divide)
         next_calculation = input("Let's do next calculation? (yes/no): ")
         if next_calculation == "no":
           break
