@@ -6,9 +6,9 @@ while True:
     if choice in ('1', '2', '3', '4'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
-
+        add = num1 + num2
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
+            print(add)
 
         
         next_calculation = input("Let's do next calculation? (yes/no): ")
