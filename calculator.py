@@ -10,7 +10,7 @@ while True:
         if choice == '1':
             print(add)
         subtract = num1 - num2    
-        elif choice == '2':
+        if choice == '2':
             print(subtract)
         
         next_calculation = input("Let's do next calculation? (yes/no): ")
